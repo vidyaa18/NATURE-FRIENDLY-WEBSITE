@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <title>Quiz</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1 class="heading__text">Quiz</h1>
+      </div>
+
+      <!-- Quiz section -->
+      <div class="quiz">
+        <div class="quiz__heading">
+          <h2 class="quiz__heading-text">
+            Your are <span class="result"></span> right.
+          </h2>
+        </div>
+
+        <form class="quiz-form">
+          <div class="quiz-form__quiz">
+            <p class="quiz-form__question">
+              1. What happens to plastic waste?
+            </p>
+            <label class="quiz-form__ans" for="q11">
+              <input type="radio" name="q1" id="q11" value="A" checked />
+              <span class="design"></span>
+              <span class="text"
+                >It is a biodegradable material so it eventually
+                disintegrates</span
+              >
+            </label>
+            <label class="quiz-form__ans" for="q12">
+              <input type="radio" name="q1" id="q12" value="B" />
+              <span class="design"></span>
+              <span class="text"
+                >It never fully goes away, it just breaks into little
+                pieces</span
+              >
+            </label>
+            <label class="quiz-form__ans" for="q13">
+              <input type="radio" name="q1" id="q13" value="C" />
+              <span class="design"></span>
+              <span class="text"
+                >There is no such thing as plastic waste, all plastic is
+                recycled,hence we must limit its usage</span
+              >
+            </label>
+            <label class="quiz-form__ans" for="q14">
+              <input type="radio" name="q1" id="q14" value="D" />
+              <span class="design"></span>
+              <span class="text"
+                >It is dumped in the ocean for fish to eat!</span
+              >
+            </label>
+          </div>
+
+          <div class="quiz-form__quiz">
+            <p class="quiz-form__question">
+              2. When brushing or doing the dishes its always best to?
+            </p>
+            <label class="quiz-form__ans" for="q21">
+              <input type="radio" name="q2" id="q21" value="A" checked />
+              <span class="design"></span>
+              <span class="text"
+                >Use lots of soap and toothpaste</span
+              >
+            </label>
+            <label class="quiz-form__ans" for="q22">
+              <input type="radio" name="q2" id="q22" value="B" />
+              <span class="design"></span>
+              <span class="text"
+                >Leave the water running so its easier to rinse</span
+              >
+            </label>
+            <label class="quiz-form__ans" for="q23">
+              <input type="radio" name="q2" id="q23" value="C" />
+              <span class="design"></span>
+              <span class="text"
+                >Wear gloves so you doesnt get wet</span
+              >
+            </label>
+            <label class="quiz-form__ans" for="q24">
+              <input type="radio" name="q2" id="q24" value="D" />
+              <span class="design"></span>
+              <span class="text">Turn the water off when your not using it</span>
+            </label>
+          </div>
+
+          <div class="quiz-form__quiz">
+            <p class="quiz-form__question">
+              3. Where does the majority of plastic waste end up?
+            </p>
+            <label class="quiz-form__ans" for="q31">
+              <input type="radio" name="q3" id="q31" value="A" checked />
+              <span class="design"></span>
+              <span class="text">Recycled</span>
+            </label>
+            <label class="quiz-form__ans" for="q32">
+              <input type="radio" name="q3" id="q32" value="B" />
+              <span class="design"></span>
+              <span class="text">Oceans</span>
+            </label>
+            <label class="quiz-form__ans" for="q33">
+              <input type="radio" name="q3" id="q33" value="C" />
+              <span class="design"></span>
+              <span class="text">Burned for energy</span>
+            </label>
+            <label class="quiz-form__ans" for="q34">
+              <input type="radio" name="q3" id="q34" value="D" />
+              <span class="design"></span>
+              <span class="text">Landfills</span>
+            </label>
+          </div>
+
+          <div class="quiz-form__quiz">
+            <p class="quiz-form__question">
+              4.Which pollution causes health hazards like Asthma and pneumonia??
+            </p>
+            <label class="quiz-form__ans" for="q41">
+              <input type="radio" name="q4" id="q41" value="A" checked />
+              <span class="design"></span>
+              <span class="text">air pollution</span>
+            </label>
+            <label class="quiz-form__ans" for="q42">
+              <input type="radio" name="q4" id="q42" value="B" />
+              <span class="design"></span>
+              <span class="text">being a bad person</span>
+            </label>
+            <label class="quiz-form__ans" for="q43">
+              <input type="radio" name="q4" id="q43" value="C" />
+              <span class="design"></span>
+              <span class="text">
+                living near Chernobyl
+                </span>
+            </label>
+            <label class="quiz-form__ans" for="q44">
+              <input type="radio" name="q4" id="q44" value="D" />
+              <span class="design"></span>
+              <span class="text">acid rain</span>
+            </label>
+          </div>
+
+          <div class="quiz-form__quiz">
+            <p class="quiz-form__question">
+              5. Which of these problems can be caused by air pollution?
+            </p>
+            <label class="quiz-form__ans" for="q51">
+              <input type="radio" name="q5" id="q51" value="A" checked />
+              <span class="design"></span>
+              <span class="text">Respiratory problems</span>
+            </label>
+            <label class="quiz-form__ans" for="q52">
+              <input type="radio" name="q5" id="q52" value="B" />
+              <span class="design"></span>
+              <span class="text">Reduced food sources for humans
+              </span>
+            </label>
+            <label class="quiz-form__ans" for="q53">
+              <input type="radio" name="q5" id="q53" value="C" />
+              <span class="design"></span>
+              <span class="text">Decrease in global temperatures</span>
+            </label>
+            <label class="quiz-form__ans" for="q54">
+              <input type="radio" name="q5" id="q54" value="D" />
+              <span class="design"></span>
+              <span class="text">All of the above</span>
+            </label>
+          </div>
+
+          <div class="quiz-form__quiz">
+            <p class="quiz-form__question">
+              6. What percentage of emitted carbon dioxide is absorbed by the
+              oceans?
+            </p>
+            <label class="quiz-form__ans" for="q61">
+              <input type="radio" name="q6" id="q61" value="A" checked />
+              <span class="design"></span>
+              <span class="text">10%</span>
+            </label>
+            <label class="quiz-form__ans" for="q62">
+              <input type="radio" name="q6" id="q62" value="B" />
+              <span class="design"></span>
+              <span class="text">40%</span>
+            </label>
+            <label class="quiz-form__ans" for="q63">
+              <input type="radio" name="q6" id="q63" value="C" />
+              <span class="design"></span>
+              <span class="text">50%</span>
+            </label>
+            <label class="quiz-form__ans" for="q64">
+              <input type="radio" name="q6" id="q64" value="D" />
+              <span class="design"></span>
+              <span class="text">77%</span>
+            </label>
+          </div>
+
+          <div class="quiz-form__quiz">
+            <p class="quiz-form__question">
+              7. On average, how long is a plastic bag used by a person before
+              being thrown away?
+            </p>
+            <label class="quiz-form__ans" for="q71">
+              <input type="radio" name="q7" id="q71" value="A" checked />
+              <span class="design"></span>
+              <span class="text">1 hour</span>
+            </label>
+            <label class="quiz-form__ans" for="q72">
+              <input type="radio" name="q7" id="q72" value="B" />
+              <span class="design"></span>
+              <span class="text">12 minutes</span>
+            </label>
+            <label class="quiz-form__ans" for="q73">
+              <input type="radio" name="q7" id="q73" value="C" />
+              <span class="design"></span>
+              <span class="text">1 day</span>
+            </label>
+            <label class="quiz-form__ans" for="q74">
+              <input type="radio" name="q7" id="q74" value="D" />
+              <span class="design"></span>
+              <span class="text">1 week</span>
+            </label>
+          </div>
+
+          <div class="quiz-form__quiz">
+            <p class="quiz-form__question">
+              8. About 71% of the Earth is covered with water. How much of it is
+              fresh water?
+            </p>
+            <label class="quiz-form__ans" for="q81">
+              <input type="radio" name="q8" id="q81" value="A" checked />
+              <span class="design"></span>
+              <span class="text">2.5%</span>
+            </label>
+            <label class="quiz-form__ans" for="q82">
+              <input type="radio" name="q8" id="q82" value="B" />
+              <span class="design"></span>
+              <span class="text">5%</span>
+            </label>
+            <label class="quiz-form__ans" for="q83">
+              <input type="radio" name="q8" id="q83" value="C" />
+              <span class="design"></span>
+              <span class="text">20%</span>
+            </label>
+            <label class="quiz-form__ans" for="q84">
+              <input type="radio" name="q8" id="q84" value="D" />
+              <span class="design"></span>
+              <span class="text">50%</span>
+            </label>
+          </div>
+
+          <div class="quiz-form__quiz">
+            <p class="quiz-form__question">
+              9. More than half of the breathable oxygen in the world comes
+              from?
+            </p>
+            <label class="quiz-form__ans" for="q91">
+              <input type="radio" name="q9" id="q91" value="A" checked />
+              <span class="design"></span>
+              <span class="text">The oceans</span>
+            </label>
+            <label class="quiz-form__ans" for="q92">
+              <input type="radio" name="q9" id="q92" value="B" />
+              <span class="design"></span>
+              <span class="text">The forests</span>
+            </label>
+            <label class="quiz-form__ans" for="q93">
+              <input type="radio" name="q9" id="q93" value="C" />
+              <span class="design"></span>
+              <span class="text">Lakes</span>
+            </label>
+            <label class="quiz-form__ans" for="q94">
+              <input type="radio" name="q9" id="q94" value="D" />
+              <span class="design"></span>
+              <span class="text">Clouds</span>
+            </label>
+          </div>
+
+          <div class="quiz-form__quiz">
+            <p class="quiz-form__question">
+              10. About how many plastic grocery bags do Americans throw away
+              each year?
+            </p>
+            <label class="quiz-form__ans" for="q101">
+              <input type="radio" name="q10" id="q101" value="A" checked />
+              <span class="design"></span>
+              <span class="text">10 million</span>
+            </label>
+            <label class="quiz-form__ans" for="q102">
+              <input type="radio" name="q10" id="q102" value="B" />
+              <span class="design"></span>
+              <span class="text">500 million</span>
+            </label>
+            <label class="quiz-form__ans" for="q103">
+              <input type="radio" name="q10" id="q103" value="C" />
+              <span class="design"></span>
+              <span class="text">1 billion</span>
+            </label>
+            <label class="quiz-form__ans" for="q104">
+              <input type="radio" name="q10" id="q104" value="D" />
+              <span class="design"></span>
+              <span class="text">100 billion</span>
+            </label>
+          </div>
+
+          <input class="submit" type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

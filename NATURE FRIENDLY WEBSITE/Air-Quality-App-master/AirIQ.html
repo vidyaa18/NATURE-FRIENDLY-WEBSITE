@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="AQcss.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Air Quality</title>
+</head>
+<script src="./AQ.js" type="module">
+    try {
+        getdata();
+    }
+    catch (error) {
+        console.log(error);
+    }
+    finally {
+        getdata();
+    }
+</script>
+
+<body>
+    <div class="main"><br><br><br><br><br>
+        <h1>AIR QUALITY AROUND YOU <br><br></h1>
+        <div class="search">
+            <input type="search" id="getInput" value="" class="form-control py-2" placeholder="Search City"
+                aria-label="Search City" aria-describedby="basic-addon1" />
+            <div class="input-group-append">
+                <button id="btn2" class="btn btn-outline-primary" type="button"><i
+                        class="medium material-icons">search</i></button>
+            </div>
+        </div>
+        <br><h3>OR</h3><br>
+        <button id="btn1" class="btn btn-outline-primary" style="background-color:rgb(194, 174, 74); border-color:rgb(16, 16, 17); color:white">Get Geolocation</button>
+    </div>
+    <div id="content"></div>
+</body>
+</html>
